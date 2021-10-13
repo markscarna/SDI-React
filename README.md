@@ -7,7 +7,8 @@ Fork & clone this repository
 
 ## Repo Directions
 - Create a new React application using `create-reacte-app`
-- Navigate into your newly created directory and run the command `npm start` to start the React server on port 3000
+- Navigate into your newly created directory and run the command `rm -rf .git/` to remove the `git` repo that `create-react-app` automatically creates
+- Run the command `npm start` to start the React server on port 3000
 - Open a new terminal in the root directory and navigate to the `server` directory
 - From there, run the command `npm install`. Once the installation has completed, run the command `npm start` to start the API server on port 3001. (You will not have to change any of the files in the server. The server exists simply to serve up some data from `thecocktaildb`. Make sure you don't close this terminal or end the process prematurely)
 
