@@ -26,5 +26,6 @@ Your application should consist of multiple modular React components. Use what y
 - `GET` `http://localhost:3001/search/{Your ingredient search query here}` returns an object with property `drinks` that is an array of drink objects that match the search query.
 
 ## Stretch Goals
+- Create an "Add a Drink" function that adds a drink to your list. This drink should be stored "in-memory", so changes should not be posted to the API.
 - Refactor code to utilize React Hooks
 - Implement testing using the `React Testing Library`
