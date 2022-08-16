@@ -6,7 +6,7 @@ For this activity, you will fulfill the following requirements:
 Fork & clone this repository
 
 ## Repo Directions
-- Create a new React application using `create-reacte-app`
+- Create a new React application using `create-react-app`
 - Navigate into your newly created directory and run the command `rm -rf .git/` to remove the `git` repo that `create-react-app` automatically creates
 - Run the command `npm start` to start the React server on port 3000
 - Open a new terminal in the root directory and navigate to the `server` directory
