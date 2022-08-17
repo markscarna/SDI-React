@@ -8,15 +8,12 @@ class App extends React.Component{
     super()
 
     this.state = {
-      // returnedDrinks: [],
       defaultCocktails: [],
       searchedCocktails: [],
       searchInput: ''
 
     }
-  }
-
-  
+  } 
   
   componentDidMount() {
     fetch("http://localhost:3001/")
@@ -104,56 +101,5 @@ class App extends React.Component{
         
 
 export default App;
-
-
-// import React, { Component } from "react";
-
-// export class App extends Component{
-//   constructor(){
-//     super();
-//     this.state = {
-//       text: "",
-//       userName: ""
-//     }
-//   }
-
-//   componentDidMount(){
-//     this.setState({ userName: "default" });
-//   }
-
-//   handleChange = (e) => {
-//     this.setState({
-//       text : e.target.value
-//     })
-//   }
-
-//   handleSubmit = () => {
-//     this.setState({
-//       userName : this.state.text,
-//       text: ""
-//     })
-//   }
-//   componentDidUpdate(prevProp, prevState){
-//     if (prevState.userName !== this.state.userName){
-//       console.log("name changed!")
-
-//     }
-//   }
-
-//   render(){
-    
-//     return (
-//             <div>
-//               <input type="text" name="inputField" value={this.text} onChange={this.handleChange}/>
-//               <input type="submit" name="inputButton" onClick={() => {this.handleSubmit()}} value="Click Me"/>
-//               <h1>{this.state.userName}</h1>
-//             </div>
-//            )
-//   }
-
-  
-
-// }
-
 
 

@@ -2,13 +2,6 @@
   text-align: center;
 }
 
-.results {
-  
-}
-
-.home-page {
- 
-}
 
 #default {
   top: 20%;
@@ -26,19 +19,13 @@
   color: #fff;
 }
 
-.body {
-  
-}
 
 #search-bar {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.search-bar:hover, .search-bar:focus {
-  border: 1.5px solid #009688;
-  background-color: white;
-}
+
 #bg_image{
   background-image: url('https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&w=1600');
   background-size: cover;
