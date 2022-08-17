@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.results {
+  
+}
+
+.home-page {
+ 
+}
+
+#default {
+  top: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  align-items: center;
+  color: white;
+}
+
+.h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.body {
+  
+}
+
+#search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-bar:hover, .search-bar:focus {
+  border: 1.5px solid #009688;
+  background-color: white;
+}
+#bg_image{
+  background-image: url('https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&w=1600');
+  background-size: cover;
+  height: 100vh;
+}
+#defaultTop {
+padding-top: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: flex;
+font-size: 30px;
+font-weight: 900;
+justify-content: center;
+color: white;
+}
