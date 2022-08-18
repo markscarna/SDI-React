@@ -10,9 +10,9 @@ const CocktailList = (arrayOfCocktails) => {
     let tempArray = [];
     arrayOfCocktails.map((element) => {
         tempArray.push( <div>
-                        <img src={element.strDrinkThumb} width="200" height="300" alt="element.strDrinkID"></img>
+                        <img src={element.strDrinkThumb} width="200" height="300"></img>
                         <h2>{element.strDrink}</h2>
-                        <button id={element.idDrink} onClick="">Add to Favorites </button>
+                        {/* <button id={element.idDrink} onClick="">Add to Favorites </button> */}
                         </div>
                     )
     })
